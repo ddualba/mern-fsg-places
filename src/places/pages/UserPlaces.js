@@ -32,6 +32,19 @@ const DUMMY_PLACES = [
     },
     creator: "u2",
   },
+  {
+    id: "p3",
+    title: "Quail Hill",
+    description: "A nice neighborhood in Irvine",
+    imageUrl:
+      "https://www.irvinestandard.com/images/2019/04/center-hero-quailhillshoppingcenter-201808_1600x960.jpg",
+    address: "6875 Quail Hill Pkwy #6601, Irvine, CA 92603",
+    location: {
+      lat: 33.6569302,
+      lng: -117.774757,
+    },
+    creator: "u2",
+  },
 ];
 
 const UserPlaces = () => {
